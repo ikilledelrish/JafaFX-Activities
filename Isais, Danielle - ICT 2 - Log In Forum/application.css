@@ -1,0 +1,91 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+.title {
+    -fx-font-family: 'Inter-black';
+    -fx-font-size: 60px;
+    -fx-letter-spacing: 2px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 900;
+}
+
+.card {
+    -fx-background-color: transparent;
+    -fx-width: 300px;
+    -fx-margin-top: 100px;
+}
+
+.input-container {
+    -fx-alignment: center-right;
+    -fx-spacing: 5px;
+    -fx-position: relative;
+    -fx-width: 100%;
+}
+
+.input {
+    -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-border-bottom: 1px solid #ffffff92;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-width: 100%;
+}
+
+.login-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #ffffff;
+    -fx-outline: none;
+    -fx-height: 40px;
+    -fx-width: 100%;
+    -fx-border-radius: 20px;
+    -fx-cursor: hand;
+    -fx-font-size: 16px;
+    -fx-transition: all 0.4s ease;
+}
+
+.login-btn:hover {
+    -fx-background-color: #e1e1e1;
+    -fx-text-fill: #000;
+}
+
+.login-btn:not(:first-child) {
+    -fx-margin-left: 10px;
+}
+
+.forgot {
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.forgot:hover {
+    -fx-cursor: hand;
+    -fx-text-decoration: underline;
+}
+
+.social-media {
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.social-media-btn {
+    -fx-border: transparent;
+    -fx-outline: none;
+    -fx-height: 40px;
+    -fx-width: 40px;
+    -fx-font-size: 18px;
+    -fx-border-radius: 50%;
+    -fx-transition: all 0.4s ease;
+}
+
+.social-media-btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #bdbdbd;
+}
+
+.social-media-btn:not(:first-child) {
+    -fx
